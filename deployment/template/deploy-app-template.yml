@@ -42,6 +42,8 @@ objects:
             - containerPort: 8080
               name: http
               protocol: TCP 
+          imagePullSecret:
+            - name: rt-demo-quay-token
   - kind: Service
     apiVersion: v1
     metadata:
