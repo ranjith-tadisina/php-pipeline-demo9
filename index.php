@@ -1,3 +1,3 @@
 <?php
-print "WEBHOOK TEST Hello, World! PHP version is " . PHP_VERSION . "\n";
+print "TEST 1 Hello, World! PHP version is " . PHP_VERSION . "\n";
 ?>
